@@ -1,0 +1,70 @@
+body{
+    background-color: #8098s;
+}
+
+.petals {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border-radius: 0 100%;
+    transform: rotate(30deg);
+    position: relative;
+    top: 100px;
+    left: 100px;
+    transform-origin: right bottom;
+}
+
+#primer{
+    transform: rotate(0deg);
+    top: 100px;
+}
+#segon{
+    transform: rotate(60deg);
+    top: 0px;
+}
+#tercer{
+    transform: rotate(120deg);
+    top: -100px;
+}
+#cuart{
+    transform: rotate(180deg);
+    top: -200px;
+}
+#cinque{
+    transform: rotate(240deg);
+    top: -300px;
+}
+#sise{
+    transform: rotate(300deg);
+    top: -400px;
+}
+.cor {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -425px;
+    left: 175px;
+    border-radius: 50%;
+    background-color:blue;
+
+}
+.flor {
+    width: 400px;
+    height: 400px;
+    transform: rotate(50deg);
+    background-color: right bottom  ;
+    animation-name: rotacio;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    float: left;
+}
+@keyframes rotacio{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
