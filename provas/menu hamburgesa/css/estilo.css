@@ -1,0 +1,64 @@
+*, *::after, *::before{
+    margin:0;
+    padding:0
+
+}
+
+body{
+    background-color: rgb(246, 246, 246);
+}
+
+.navegacion{
+    background-color: rgb(239, 199, 255);
+    
+width: 4rem;
+}
+.primernivel{
+    display: inline-block;
+    margin:0.25rem;
+    background-color: rgb(255, 255, 255);
+    padding: 0.25rem;
+    height: 2rem;
+    position: relative;
+    width: 4rem;
+
+}
+
+.primernivel:hover > .secundario{
+    display:block;
+    margin:0.25rem;
+    background-color: rgb(174, 153, 244);
+    padding: 0.25rem;
+}
+
+.segundonivel{
+    background-color: rgb(186, 190, 221);
+
+    font-size: 0.85rem;
+    height: 2rem;
+    top: 2rem;
+    border-bottom: purple solid 1px;;
+  
+}
+
+.segundonivel:hover{
+    background-color: rgb(215, 196, 232);
+    display: block;
+    font-size: 0.85rem;
+    height: 2rem;
+    top: 2rem;
+    border-bottom: purple solid 1px;;
+  
+}
+
+
+.secundario{
+    display: none;
+    background-color: bisque;
+    padding: 0;
+    top: 0;
+    width: 4.5rem;
+    position: absolute;
+    left:4rem;
+   
+}
