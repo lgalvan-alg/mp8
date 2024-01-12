@@ -1,5 +1,5 @@
 body{
-background-color: black;
+background-color: rgb(0, 0, 0);
   cursor: url(img/cursor.cur), pointer;
 }
 
@@ -9,6 +9,432 @@ background-color: black;
 
 }
 
+@media screen and (min-width: 1200px) {
+  body{
+  background-color: rgb(0, 0, 0);
+}
+
+/*SLIDER*//*SLIDER*//*SLIDER*//*SLIDER*//*SLIDER*//*SLIDER*//*SLIDER*/
+.block {
+    width:96%;
+    float:left;
+    margin-top: 20px;
+    margin-bottom:1px;
+
+}
+
+.block h2 {
+    width:96%;
+    float:left;
+    background-color:#FFB37F;
+    color:#FFFFFF;
+    cursor:pointer;
+    margin:0px;
+    padding:5px;
+    font-family: 'DM Serif Display', serif;
+
+}
+
+.block ul {
+    width:100%;
+    float:left;
+    margin: 0;
+    padding: 0;
+    display:none;
+    font-family: 'DM Serif Display', serif;
+
+}
+
+.block ul li {
+    background-color: #FFD7BC;
+    border-bottom: 1px solid black;
+    float: left;
+    list-style: none outside none;
+    padding: 5px;
+    width: 96%;
+    font-family: 'DM Serif Display', serif;
+
+}
+/*acordeoon*/
+
+.sss {
+	height: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.ssslide {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	overflow: hidden;
+}
+
+.ssslide img {
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+}
+
+.sssnext, .sssprev {
+	width: 25px;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	background: url('images/arr.png') no-repeat;
+}
+
+.sssprev {
+	left: 3%;
+	background-position: 0 50%;
+}
+
+.sssnext {
+	right: 3%;
+	background-position: -26px 50%;
+}
+
+.sssprev:hover, .sssnext:hover {
+	cursor: pointer;
+}
+
+/*SLIDER*//*SLIDER*//*SLIDER*//*SLIDER*//*SLIDER*//*SLIDER*//*SLIDER*/
+
+
+.normal {
+  background-color:black;
+  width: 100%;
+  height: 80px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 500;
+font-size: 30px;
+border-bottom: 10px solid black;
+border-top: 10px solid black;
+
+}
+
+/*listas dentro del na quitar los puntos*/
+.normal ul{
+  list-style-type: none;
+
+}
+
+
+/*enlaces dentro de los listados enlaces*/
+.normal ul li a{
+  text-decoration: none;
+border-left: 2PX solid black;
+border-right: 2PX solid black;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-top: 20px;
+  display: block;
+  float: left;
+  width:32.47%;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.normal ul li a:hover{
+  color: #6D1C32;
+  background-color: white;
+  box-shadow: 5px 5px 5px black;
+
+}
+
+
+
+
+
+/*cabeceraaaa*//*cabeceraaaa*//*cabeceraaaa*//*cabeceraaaa*/
+#cabecera{
+  width: 100%;
+  height:280px;
+background-color: black;
+}
+
+#cabecera img{
+margin: auto;
+
+  box-shadow: 0PX 5px 8px #6D1C32;
+margin-left: 800px;
+z-index: 20;
+}
+
+#lineadivisoria{
+  width: 100%;
+  height: 15px;
+  background-color: rgb(255, 255, 255);
+}
+#quienes{
+  width: 100%;
+  height: 200px;
+  background-color:black;
+
+}
+
+#quienes p{
+font-size: 60px;
+  font-family: 'DM Serif Display', serif;
+  font-weight: 600;
+padding-left: 200px;
+padding-right: 200px;
+padding-top: 60px;
+color: white;
+
+text-align: center;
+}
+#divisoriados{
+  width: 100%;
+  margin-top: 1px;
+
+  background-color:rgb(255, 255, 255);
+  height:15px;
+
+}
+
+
+a{
+   text-decoration:none;
+   color: black;
+}
+
+#contenedorinicio{
+background-color: black;
+  width: 100%;
+  height: 2200px;
+  margin: 0 auto;
+  margin-top: 300px;
+}
+
+
+
+.slider{
+margin-top: -297px;
+}
+
+ 
+
+/*actividadesss*//*actividadesss*//*actividadesss*//*actividadesss*//*actividadesss*/
+.contenedoracts h1{
+  font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 20px;
+    background-color: #6D1C32;
+    text-align: center;
+    padding-top: 20PX;
+}
+.actividades{
+  transform: scale(1.1) rotateY(0deg);
+  position:relative;
+  margin: 30px;
+  width: 400px;
+  height: 400px;
+  background-image: url(img/interrogante.svg);  
+  background-color: black;
+  float: left;
+  box-shadow: 5px 5px 8px #6D1C32;
+
+}
+
+.actividades:hover{
+  transform: scale(1.1) rotateY(180deg);
+  transform-origin: center;
+  transform-style: preserve-3d;
+  animation: volteo 0.8s linear;
+  box-shadow: -5px 5px 8px #6D1C32;
+}
+
+@keyframes volteo {
+  0%{
+    transform: scale(1.1) rotateY(0deg);
+    box-shadow: 5px 5px 8px #6D1C32;
+  }
+  100%{
+    transform: scale(1.1) rotateY(150deg);
+    box-shadow: -5px 5px 8px #6D1C32;
+  }
+}
+.actividades h1{
+  font-size: 0px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 600;
+    color: black;
+    background-color: #E5E5E5;
+    text-align: center;
+    padding-top: 20PX;
+}
+
+.actividades H1:hover{
+
+  transition:  0.8s;
+}
+
+.actividades a:hover{
+ 
+  transition:  0.8s;
+}
+
+.actividades a{
+  font-size: 30px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 600;
+    color: #6D1C32;
+    text-align: center;
+    padding-top: 180PX;
+
+}
+.contenedoracts{
+  border-top: 20px black solid;
+  margin-top: 30px;
+  width: 1845px;
+  height: 580px;
+  margin-top: 100px;
+  background-color: white;
+  margin: auto;
+
+}
+
+
+#actuno {
+  animation: voltimage 0.8s;
+}
+
+@keyframes voltimage {
+    0%{
+      transform: rotateY(180deg);
+      opacity: 0;
+    }
+  
+  100%{
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+
+}
+
+#actuno:hover{
+  transform: rotateY(0deg);
+  background-image: url(img/ACT1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#actdos:hover{
+  background-image: url(img/ACT2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#acttres:hover{
+  background-image: url(img/ACT3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#actquatro:hover{
+  background-image: url(img/ACT4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#actcinco:hover{
+  background-image: url(img/ACT5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#actseis:hover{
+  background-image: url(img/ACT6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#actsiete:hover{
+  background-image: url(img/ACT7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#actocho:hover{
+  background-image: url(img/ACT8.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#actnueve:hover{
+  background-image: url(img/ACT9.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#actdiez:hover{
+  background-image: url(img/ACT10.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#actexamen:hover{
+  background-image: url(img/ACTEXAMEN.png);
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+}
+
+#actenproceso:hover{
+  background-image: url(img/engranaje.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*actividadesss*//*actividadesss*//*actividadesss*//*actividadesss*//*actividadesss*/
+
+/*footer*/
+
+#pie{
+border-TOP: 20PX SOLID white;
+ width: 100%;
+    background-color: black;
+     height: 100px;
+  position: relative;
+}
+
+
+#pie h1{
+text-align: center;
+font-family: 'DM Serif Display', serif;
+font-weight: 800;
+padding-top: 25px;
+color: white;
+}
+ .clear{
+   clear: both;
+ }
+
+
+
+
+}
+
+/* INICIO DE VERSION MOVIL */ /* INICIO DE VERSION MOVIL *//* INICIO DE VERSION MOVIL *//* INICIO DE VERSION MOVIL *//* INICIO DE VERSION MOVIL *//* INICIO DE VERSION MOVIL *//* INICIO DE VERSION MOVIL */
+
+@media screen and ( mAX-width: 1200px) {
+  body{
+  background-color: rgb(255, 0, 0);
+}
 
 /*SLIDER*//*SLIDER*//*SLIDER*//*SLIDER*//*SLIDER*//*SLIDER*//*SLIDER*/
 .block {
@@ -297,7 +723,7 @@ margin-top: -297px;
 .contenedoracts{
   border-top: 20px black solid;
   margin-top: 30px;
-  width: 1845px;
+  width:600px;
   height: 580px;
   margin-top: 100px;
   background-color: white;
@@ -420,4 +846,23 @@ color: white;
    clear: both;
  }
 
-/*inciooo*//*inciooo*//*inciooo*//*inciooo*//*inciooo*//*inciooo*//*inciooo*//*inciooo*/
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FIN DE VERSION MOVIL *//* FIN DE VERSION MOVIL *//* FIN DE VERSION MOVIL *//* FIN DE VERSION MOVIL *//* FIN DE VERSION MOVIL *//* FIN DE VERSION MOVIL *//* FIN DE VERSION MOVIL */
