@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Namecat';
+    src: url('Namecat.woff2') format('woff2'),
+        url('Namecat.woff') format('woff'),
+        url('Namecat.svg#Namecat') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
