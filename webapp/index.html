@@ -51,54 +51,94 @@ h1{
   font-family: Fantasia;
 }
 
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+
+   }
+ul{
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    right: 0;
+}
+li{
+    float:left;
+    display: inline-block;
+    margin: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(97, 185, 207);
+    text-align: center;
+    line-height: 3rem;
+    border-radius: 50%;
+}
+
+#petit{
+    font-size: 1rem;
+}
+
+#mitja{
+    font-size: 1.5rem;  
+}
+
+#gran{
+    font-size: 2rem;  
+  
+}
+
+p{
+    margin-top:1rem;
+    text-align: justify;
+
+}
 /* disseny mobil :vertical */
 
-@media screen and (max-width:480px){
+@media screen and (max-width:481px){
   body{
-    background: azure;
+    background: rgb(204, 219, 255);
   }
  }
-
-
-
 
 /* disseny mobil aoaisat */
 
 @media screen and (min-width:481px) and (max-width:1280px){
   body{
-    background:rgb(180, 234, 180); 
+    background:rgb(238, 218, 255); 
   }
  }
 
-
-
  /* diseny escriptori */
-
-
 
 @media screen and (min-width:1281px) {
   body{
-    background:rgb(125, 34, 153); 
+    background:rgb(153, 34, 84); 
   }
 }
-
-
 </style>
+
 <body>
-
+  <ul>
+    <li id="petit">-</li>
+    <li id="mitja">=</li>
+    <li id="gran">+</li>
+  </ul>
 <h1>APP</h1>
-<P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptatibus a quidem obcaecati consequatur blanditiis officia, incidunt sapiente eveniet perspiciatis eos, enim accusantium vitae excepturi maxime dicta. Adipisci, totam nihil.
-Hic ab, voluptates harum incidunt laudantium esse debitis perferendis corporis magnam eum inventore aliquam illo tempora. A eaque quo aliquam provident doloremque, praesentium in iusto optio, nulla placeat molestiae rerum!
-Deserunt, ipsum ab architecto cupiditate nisi reiciendis quaerat illo cumque ea ad. Minima architecto nobis ducimus officiis magnam ut, ex dolores sint incidunt explicabo nihil id eligendi officia quasi cum!
-Asperiores rerum amet optio omnis quibusdam est officia nobis repellat laboriosam sit obcaecati magni quo labore suscipit, blanditiis doloremque nostrum temporibus iste. Dolore id, voluptate optio distinctio vel quod ducimus.
-Aliquid optio sint architecto consectetur soluta? Accusamus cupiditate nemo reprehenderit! Porro eius qui quo, fugit quidem suscipit odit in quas dicta possimus quae, nostrum, repudiandae vero voluptates quibusdam vel cumque?
-Ullam, aut vitae? Animi, deserunt autem. Minus ea quia repudiandae dolore qui quam numquam temporibus, voluptatem excepturi vel nihil eum nam nemo nesciunt aperiam quasi voluptate architecto incidunt sint veritatis?
-Sunt error laboriosam laborum saepe, reiciendis porro rerum ipsa nemo possimus temporibus repellat odit cum. Nisi, illum provident ipsum, dignissimos consequatur quae earum neque beatae, officia ullam culpa mollitia minus.
-Itaque maxime impedit necessitatibus dolores, ipsa quisquam commodi deleniti excepturi! Neque in quam magnam deleniti eveniet doloribus blanditiis? Accusamus repudiandae quod aut fugiat incidunt a laboriosam animi aperiam rerum cupiditate.
-Quos distinctio mollitia nulla omnis provident, excepturi minus praesentium possimus sunt consequuntur sit repudiandae, exercitationem perspiciatis repellendus placeat ducimus perferendis saepe ratione. Reprehenderit neque ut commodi quod molestiae ea voluptatibus.
-Facere, dolore eos corrupti doloremque voluptate repudiandae dicta quo ipsam tenetur, qui doloribus, veniam sed! Totam quibusdam, repellendus cumque voluptatem dicta illum dignissimos veritatis, aperiam natus nobis facilis dolor velit.</P>
-
+<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptatibus a quidem obcaecati consequatur blanditiis officia, incidunt sapiente eveniet perspiciatis eos, enim accusantium vitae excepturi maxime dicta. Adipisci, totam nihil.
+Hic ab, voluptates harum incidunt laudantium esse debitis perferendis corporis magnam eum inventore aliquam illo tempora. A eaque quo aliquam provident doloremque, praesentium in iusto optio, nulla placeat molestiae rerum!</p>
+<br>
+<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptatibus a quidem obcaecati consequatur blanditiis officia, incidunt sapiente eveniet perspiciatis eos, enim accusantium vitae excepturi maxime dicta. Adipisci, totam nihil.
+  Hic ab, voluptates harum incidunt laudantium esse debitis perferendis corporis magnam eum inventore aliquam illo tempora. A eaque quo aliquam provident doloremque, praesentium in iusto optio, nulla placeat molestiae rerum!</p>
+  <br>
+  <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptatibus a quidem obcaecati consequatur blanditiis officia, incidunt sapiente eveniet perspiciatis eos, enim accusantium vitae excepturi maxime dicta. Adipisci, totam nihil.
+    Hic ab, voluptates harum incidunt laudantium esse debitis perferendis corporis magnam eum inventore aliquam illo tempora. A eaque quo aliquam provident doloremque, praesentium in iusto optio, nulla placeat molestiae rerum!</p>
+<br>
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptatibus a quidem obcaecati consequatur blanditiis officia, incidunt sapiente eveniet perspiciatis eos, enim accusantium vitae excepturi maxime dicta. Adipisci, totam nihil.
+      Hic ab, voluptates harum incidunt laudantium esse debitis perferendis corporis magnam eum inventore aliquam illo tempora. A eaque quo aliquam provident doloremque, praesentium in iusto optio, nulla placeat molestiae rerum!</p>
 </body>
 
 
 </html>
+
+<script src="js/font.js"></script>

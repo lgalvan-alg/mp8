@@ -8,3 +8,40 @@
     font-display: swap;
 }
 
+ul{
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    right:0;
+}
+li{
+    float:left;
+    display: inline-block;
+    margin: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(97, 185, 207);
+    text-align: center;
+    line-height: 3rem;
+    border-radius: 50%;
+}
+
+#petit{
+    font-size: 1rem;
+
+}
+
+#mitja{
+    font-size: 1.5rem;  
+}
+
+#gran{
+    font-size: 2rem;
+    
+}
+
+p{
+    margin-top:1rem;
+
+}
+
