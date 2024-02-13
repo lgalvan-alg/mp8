@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*normal*//*normal*//*normal*//*normal*//*normal*//*normal*/
+@media screen and (min-width: 941px) {
+    body{
+      background-image: url(../img/fons.jpg);
+      background-repeat: repeat;
+      background-size: contain;
+  }
+
+  #contenedor{
+    width: 960px;
+    height: 2000px;
+    margin: auto;
+    margin-top: 20px;
+   
+  }
+
+  #titulo{
+    margin-top: 20px;
+    height:4.3rem;
+    width: 400px;
+    margin: auto;
+
+  }
+  #cabecera h1{
+    padding-top: 100px;
+    float: left;
+    font-size: 4rem;
+    font-family: Helvetica, sans-serif;
+    
+  }
+
+  #andopacity{
+    opacity: 50%;
+  }
+#cabecera{
+  
+  height:589px;
+  width: 650px;
+  margin-left: 160px;
+  
+    
+  }
+
+  .imgcoche
+  {
+   margin-top: 50px;
+    height:3600px;
+    width: 650px;
+    position: relative;
+background-repeat: no-repeat;    
+background-image: url(../img/ghost.png);
+    background-size: contain;
+  }
+
+  #f1{
+    background-repeat: no-repeat;    
+    background-image: url(../img/small_break.jpg);
+        background-size: contain; 
+  }
+
+  #f2{
+    background-repeat: no-repeat;    
+    background-image: url(../img/small_break.jpg);
+        background-size: contain; 
+  }
+  #f3{
+    background-repeat: no-repeat;    
+    background-image: url(../img/small_break.jpg);
+        background-size: contain; 
+  }
+
+  #f4{
+    background-repeat: no-repeat;    
+    background-image: url(../img/small_break.jpg);
+        background-size: contain; 
+  }
+  #f5{
+    background-repeat: no-repeat;    
+    background-image: url(../img/small_break.jpg);
+        background-size: contain; 
+  }
+  #f6{
+    background-repeat: no-repeat;    
+    background-image: url(../img/small_break.jpg);
+        background-size: contain; 
+  }
+  #f7{
+    background-repeat: no-repeat;    
+    background-image: url(../img/small_break.jpg);
+        background-size: contain; 
+  }
+  #f8{
+    background-repeat: no-repeat;    
+    background-image: url(../img/small_break.jpg);
+        background-size: contain; 
+  }
+  #f9{
+    background-repeat: no-repeat;    
+    background-image: url(../img/small_break.jpg);
+        background-size: contain; 
+  }
+  #cuerpo{
+    margin-left: 160px;
+    height:780px;
+    width: 650px;
+    
+  }
+
+  .coche{
+    margin-left: 20px;
+    height:240px;
+    width: 190px;
+    float: left;
+    margin-top: 20px;
+    
+    
+    
+  }
+  .coche:hover{
+    opacity: 0.5;
+ 
+  }
+.textocoche{
+  margin-top: 120px;
+  height:40px;
+  width: 190px;
+
+  background-color: white;
+}
+}
+.textocoche p{
+font-size: 1rem;
+font-family:Helvetica, sans-serif;
+}
+
+.clear{
+  clear: both;
+}
+
+#pie{
+  height:220px;
+    width: 650px;
+  
+    margin-left: 160px;
+}
+
+#imgpie{
+  width: 300px;
+  height: 150PX;
+  margin: auto;
+  margin-top: 50PX;
+  margin-left: 250PX;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../img/logo_carsandfilms.png);
+}
+/*normal*//*normal*//*normal*//*normal*//*normal*/
+
+
+/*responsive*//*responsive*//*responsive*//*responsive*//*responsive*/
+@media screen and (max-width: 940px) {
+    body{
+    background-color: rgb(183, 48, 48);
+  }
+}
+/*responsive*//*responsive*//*responsive*//*responsive*//*responsive*/
